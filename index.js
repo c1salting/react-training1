@@ -1,12 +1,9 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-        <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    </head>
-    <body>
-        <div id="root"></div>
-        <script src="index.js" type="text/babel"></script>
-    </body>
-</html>
+/* Surprise! You probably thought you could just forget
+the line of code you just learned! Nope, not on my watch!
+
+Try to write that 1-liner of React code again! This time,
+see if you can figure out how to render an <ul> with 2+ <li>s inside*/
+ReactDOM.render(
+    <ul><li>Thing 1</li><li>Thing 2</li></ul>,
+    document.getElementById("root")
+)
